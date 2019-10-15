@@ -29,7 +29,7 @@
 		background-size:cover;
 	}
 	#image{
-		/*background-image: url("../images/hero-desktop.jpg");*/
+		background-image: url("../images/hero-desktop.jpg");
 		background-size:cover;
 		
 	}
@@ -71,21 +71,18 @@
 		
 	}
 	input {
-		/* Tell the input to use all the available space */
+		
 		flex-grow:2;
-		/* And hide the input's outline, so the form looks like the outline */
 		border:none;
 		background: none;
 		
 	}
 
 	input:focus {
-		/* removing the input focus blue box. Put this on the form if you like. */
 		outline: none;
 	}
 	
 	button {
-		/* Just a little styling to make it pretty */
 		font-family: 'Josefin Sans', sans-serif;
 		border:none;
 		background-image:Linear-gradient(135deg, #F8BFBF, #EE8C8C);
@@ -95,6 +92,14 @@
 		margin: 0;
 		line-height: 28px;
 		font-size:30px;
+		box-shadow: 5px 10px 20px 5px rgb(206, 151, 151);
+	}
+	button:hover{
+		color:#F8BFBF;
+		background-image:none;
+	}
+	button:focus{
+		outline: none;
 	}
 	
 	
