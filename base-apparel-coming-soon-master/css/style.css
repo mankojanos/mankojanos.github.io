@@ -17,6 +17,7 @@
 		height: 100vh;
 		display: grid;
 		grid-template-rows: auto 50px;
+		
 	}
 	#grid-columns{
 		display: grid;
@@ -34,11 +35,12 @@
 	}
 	#main {
 		padding: 40% 5%; /*temporary*/
+		
 	}
 	#title{
 		
 		letter-spacing: 15px;
-		font-size: 12vw;
+		font-size: 7vw;
 	}
 	#title1stHalf{
 		color: rgb(206, 151, 151);
@@ -53,4 +55,38 @@
 		color: rgb(206, 151, 151);
 		font-size:16px;
 		letter-spacing: 2px;
+		max-width:75%;
 	}
+	
+	/*input + button */
+	form {
+		display:flex;
+		flex-direction:row;
+		border:1px solid grey;
+		padding:2px;
+		border-radius:10px 20px 20px 10px;
+		height: 25%;
+	}
+	input {
+		/* Tell the input to use all the available space */
+		flex-grow:2;
+		/* And hide the input's outline, so the form looks like the outline */
+		border:none;
+		background: none;
+		
+	}
+
+	input:focus {
+		/* removing the input focus blue box. Put this on the form if you like. */
+		outline: none;
+	}
+	
+	button {
+		/* Just a little styling to make it pretty */
+		border:1px solid blue;
+		background:blue;
+		color:white;
+		border-radius:10px;
+	}
+	
+	
