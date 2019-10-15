@@ -16,13 +16,13 @@
 	#grid-rows{
 		height: 100vh;
 		display: grid;
-		grid-template-rows: auto 50px;
+		grid-template-rows: auto 5px;
 		
 	}
 	#grid-columns{
 		display: grid;
 		grid-template-columns: 55% 45%;
-		height:100%;
+		
 	}
 	#main{
 		background-image: url("../images/bg-pattern-desktop.svg");
@@ -34,7 +34,7 @@
 		
 	}
 	#main {
-		padding: 40% 5%; /*temporary*/
+		padding: 40% 5% 5% 5%; /*temporary*/
 		
 	}
 	#title{
@@ -56,16 +56,18 @@
 		font-size:16px;
 		letter-spacing: 2px;
 		max-width:75%;
+		margin-bottom:25%;
 	}
 	
 	/*input + button */
 	form {
 		display:flex;
 		flex-direction:row;
-		border:1px solid grey;
-		padding:2px;
-		border-radius:10px 20px 20px 10px;
-		height: 25%;
+		border:1px solid rgb(206, 151, 151);
+		max-width:75%;
+		line-height: 28px;
+		border-radius:50px;
+		
 	}
 	input {
 		/* Tell the input to use all the available space */
@@ -83,10 +85,13 @@
 	
 	button {
 		/* Just a little styling to make it pretty */
-		border:1px solid blue;
-		background:blue;
+		border:none;
+		background-image:Linear-gradient(135deg, #F8BFBF, #EE8C8C);
 		color:white;
-		border-radius:10px;
+		border-radius:50px;
+		padding: 1% 7%;
+		line-height: 28px;
+		
 	}
 	
 	
