@@ -86,13 +86,15 @@
 	
 	button {
 		/* Just a little styling to make it pretty */
+		font-family: 'Josefin Sans', sans-serif;
 		border:none;
 		background-image:Linear-gradient(135deg, #F8BFBF, #EE8C8C);
 		color:white;
 		border-radius:50px;
-		padding: 1% 7%;
+		padding: 2% 7%;
+		margin: 0;
 		line-height: 28px;
-		
+		font-size:30px;
 	}
 	
 	
