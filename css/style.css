@@ -1,0 +1,25 @@
+
+.portfolio{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	height:50vh;
+}
+.cover:hover{
+	background-color:rgba(201, 76, 76, 0.3);
+}
+.projekt{
+	min-height:100%;
+	width:100%;
+	text-align:center;
+}
+.projekt a {
+	text-decoration:none;
+	
+}
+
+.projekt:nth-child(1){
+	background-image:url("../base-apparel-coming-soon-master/stamp.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
