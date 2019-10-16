@@ -10,8 +10,6 @@
 	filter: alpha(opacity=80);
 }
 .projekt{
-	min-height:100%;
-	width:100%;
 	text-align:center;
 }
 .projekt a {
@@ -19,6 +17,8 @@
 	display:block;
 	line-height:500%;
 	font-size:50px;
+	color: inherit;
+	
 	
 }
 .cover{
