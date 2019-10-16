@@ -16,7 +16,10 @@
 }
 .projekt a {
 	text-decoration:none;
-	
+	display:block;
+	width:100%;
+	line-height:500%;
+	font-size:50px;
 	
 }
 .cover{
@@ -26,21 +29,21 @@
 
 .cover:nth-child(1) .projekt{
 	background-image:url("../base-apparel-coming-soon-master/stamp.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .cover:nth-child(2) .projekt{
 	background-image:url("../base-apparel-coming-soon-master/stamp.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .cover:nth-child(3) .projekt{
 	background-image:url("../base-apparel-coming-soon-master/stamp.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 .cover:nth-child(4) .projekt{
 	background-image:url("../base-apparel-coming-soon-master/stamp.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
