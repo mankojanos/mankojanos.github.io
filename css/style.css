@@ -1,48 +1,23 @@
-
-.portfolio{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	justify-items: center;
-	height:25vh;
-}
-.projekt:hover{
-	opacity: 0.8;
-	filter: alpha(opacity=80);
-}
-.projekt{
-	text-align:center;
-}
-.projekt a {
-	text-decoration:none;
-	display:block;
-	line-height:500%;
-	font-size:50px;
-	color: inherit;
-	
-	
-}
-.cover{
-	width:100%;
-	background-color:rgba(201, 76, 76, 0.3);
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
 }
 
-.cover:nth-child(1) .projekt{
-	background-image:url("../base-apparel-coming-soon-master/stamp.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+.cover {
+	position: relative;
+	background-color:khaki;
 }
-.cover:nth-child(2) .projekt{
-	background-image:url("../base-apparel-coming-soon-master/stamp.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+
+img{
+	opacity: 1;
+	transition: .5s ease;
+	border: 5px solid white !important;
 }
-.cover:nth-child(3) .projekt{
-	background-image:url("../base-apparel-coming-soon-master/stamp.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
+
+.cover:hover img {
+	opacity: 0.7;
 }
-.cover:nth-child(4) .projekt{
-	background-image:url("../base-apparel-coming-soon-master/stamp.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
+
