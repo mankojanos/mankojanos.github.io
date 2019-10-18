@@ -97,6 +97,7 @@
 	}
 	/*image*/
 	.image {
-		background-image: url("https://via.placeholder.com/610x800")
+		background-image: url("https://via.placeholder.com/610x800");
+		background-repeat:no-repeat;
 	}
 	
