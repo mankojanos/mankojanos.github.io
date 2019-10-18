@@ -6,27 +6,51 @@
     .attribution a {
 		color: hsl(228, 45%, 44%); 
 	}
-
-	/*layout*/
+	/*vars*/
+	:root {
+  --desatRed: hsl(0, 36%, 70%); /*we're*/
+  --softRed: hsl(0, 93%, 68%) /*email*/
+  --dGrayRed: hsl(0, 6%, 24%) /*coming soon*/
+	}
 	
+	/*layout*/
+	html, body {
+		font-family: 'Josefin Sans', sans-serif;
+	}
 	.grid-container{
 		display:grid;
 		grid-template-columns: 55vw 44vw;
 		grid-template-rows:90vh 5vh;
 		min-height: 95vh;
 	}
-	footer {
+	.main-content{
+		padding: 5vh 10vh 0 10vh;
+	}
+	.logo {
 		
+	}
+	
+	h1, h2 {
+		font-size:50px;
+	}
+	h1 {
+		font-weight:300;
+		color: var(--desatRed);
+	}
+	h2 {
+		font-weight:600;
+		color: var(--dGrayRed);
+	}
+	h3 {
+		font-weight:400;
+		color: var(--desatRed);
+	}
+	footer {
 		display:flex;
 		grid-column: 1 / span 2;
 		flex-direction: column;
 		justify-content: flex-end;
-		
-		
-	
 	}
-
-
 	/*input + button */
 	form {
 		display:flex;
@@ -67,7 +91,7 @@
 	button:focus{
 		outline: none;
 	}
-
+	/*image*/
 	.image {
 		background-image: url("https://via.placeholder.com/610x800")
 	}
