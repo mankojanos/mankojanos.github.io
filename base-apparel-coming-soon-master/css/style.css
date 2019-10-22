@@ -9,19 +9,25 @@
 	/*vars*/
 	:root {
   --desatRed: hsl(0, 36%, 70%); /*we're*/
-  --softRed: hsl(0, 93%, 68%) /*email*/
-  --dGrayRed: hsl(0, 6%, 24%) /*coming soon*/
+  --softRed: hsl(0, 93%, 68%); /*email*/
+  --dGrayRed: hsl(0, 6%, 24%); /*coming soon*/
+  --linear-bg: linear-gradient(135deg, #FFFFFF, #FFF5F5);
 	}
 	
 	/*layout*/
 	html, body {
 		font-family: 'Josefin Sans', sans-serif;
+		
+	}
+	html {
+		background-image: url("../images/bg-pattern-desktop.svg");
+		background-size: cover;
 	}
 	.grid-container{
 		display:grid;
 		grid-template-columns: 55vw 44vw;
 		grid-template-rows:90vh 5vh;
-		min-height: 95vh;
+		min-height: 98vh;
 	}
 	.main-content{
 		padding: 7vh 10vh 0 5vh;
@@ -108,6 +114,9 @@
 		}
 	}
 	@media screen and (max-width: 800px) {
+		html {
+		background-image: var(--linear-bg);
+	}
 		.logo-desktop {
 			display: none;
 		}
