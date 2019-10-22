@@ -26,11 +26,11 @@
 	</h3>
 	<div class="emailForm">
 	<form name="form1">
-		<input name="email"/>
-			<button onclick="ValidateEmail(document.form1.email)">></button>
+		<input id="mail"/>
+			<button onclick="ValidateEmail(); CheckEmail(); return false;">></button>
 	</form>
 	</div>
-	<label id="error"></label>
+	<p id="error"></p>
 </div>
 
 <div class="image">
