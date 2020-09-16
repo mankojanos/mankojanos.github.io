@@ -3,7 +3,7 @@
 
 
  [Base Apparel coming soon page](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)
-
+<br/>
 ![](https://res.cloudinary.com/dz209s6jk/image/upload/v1564914815/Challenges/oxwdbpj64r1au0gp1frc.jpg)
 <br/>
 <br/>
